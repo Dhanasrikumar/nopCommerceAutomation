@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-07-11T14:05:57.603219" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="C:\Users\ELCOT\PycharmProjects\pythonProject5\Tests">
+<suite id="s1-s1" name="Addtocart" source="C:\Users\ELCOT\PycharmProjects\pythonProject5\Tests\Addtocart.robot">
+<test id="s1-s1-t1" name="AddTest" line="8">
+<kw name="open browser">
+<msg time="2024-07-11T14:05:57.728103" level="FAIL">No keyword with name 'open browser' found.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<status status="FAIL" start="2024-07-11T14:05:57.728103" elapsed="0.000000">No keyword with name 'open browser' found.</status>
+</kw>
+<kw name="Set Selenium Speed">
+<arg>2 seconds</arg>
+<status status="NOT RUN" start="2024-07-11T14:05:57.728103" elapsed="0.000000"/>
+</kw>
+<kw name="Click Link">
+<arg>xpath=//*[@id="main"]/div/div/div/div/div[4]/div[2]/div[1]/div/div[1]/a/img</arg>
+<status status="NOT RUN" start="2024-07-11T14:05:57.728103" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element">
+<arg>id=add-to-cart-button-1</arg>
+<status status="NOT RUN" start="2024-07-11T14:05:57.728103" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-07-11T14:05:57.728103" elapsed="0.000000">No keyword with name 'open browser' found.</status>
+</test>
+<status status="FAIL" start="2024-07-11T14:05:57.712476" elapsed="0.015627"/>
+</suite>
+<suite id="s1-s2" name="Computer" source="C:\Users\ELCOT\PycharmProjects\pythonProject5\Tests\Computer.robot">
+<test id="s1-s2-t1" name="DesktopTest" line="10">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-07-11T14:05:58.368768" level="INFO">Opening browser 'chrome' to base url 'https://demo.nopcommerce.com/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-07-11T14:05:58.368768" elapsed="55.362228"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-07-11T14:06:53.730996" elapsed="0.157765"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-07-11T14:06:53.888761" level="INFO">Clicking link 'xpath:/html/body/div[6]/div[2]/ul[1]/li[1]/a'.</msg>
+<arg>xpath:/html/body/div[6]/div[2]/ul[1]/li[1]/a</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-11T14:06:53.888761" elapsed="69.860260"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-07-11T14:08:03.749021" level="INFO">Clicking link 'xpath:/html/body/div[6]/div[2]/ul[1]/li[1]/ul/li[1]/a'.</msg>
+<msg time="2024-07-11T14:08:04.094006" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-07-11T14:08:04.095006" level="FAIL">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF66AF1EEA2+31554]
+	(No symbol) [0x00007FF66AE97ED9]
+	(No symbol) [0x00007FF66AD58559]
+	(No symbol) [0x00007FF66ADA97C2]
+	(No symbol) [0x00007FF66AD9C151]
+	(No symbol) [0x00007FF66ADCD02A]
+	(No symbol) [0x00007FF66AD9BA76]
+	(No symbol) [0x00007FF66ADCD240]
+	(No symbol) [0x00007FF66ADEC977]
+	(No symbol) [0x00007FF66ADCCDD3]
+	(No symbol) [0x00007FF66AD9A33B]
+	(No symbol) [0x00007FF66AD9AED1]
+	GetHandleVerifier [0x00007FF66B228B1D+3217341]
+	GetHandleVerifier [0x00007FF66B275AE3+3532675]
+	GetHandleVerifier [0x00007FF66B26B0E0+3489152]
+	GetHandleVerifier [0x00007FF66AFCE776+750614]
+	(No symbol) [0x00007FF66AEA375F]
+	(No symbol) [0x00007FF66AE9EB14]
+	(No symbol) [0x00007FF66AE9ECA2]
+	(No symbol) [0x00007FF66AE8E16F]
+	BaseThreadInitThunk [0x00007FFBB15B7344+20]
+	RtlUserThreadStart [0x00007FFBB1E226B1+33]
+</msg>
+<arg>xpath:/html/body/div[6]/div[2]/ul[1]/li[1]/ul/li[1]/a</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="FAIL" start="2024-07-11T14:08:03.749021" elapsed="0.771115">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF66AF1EEA2+31554]
+	(No symbol) [0x00007FF66AE97ED9]
+	(No symbol) [0x00007FF66AD58559]
+	(No symbol) [0x00007FF66ADA97C2]
+	(No symbol) [0x00007FF66AD9C151]
+	(No symbol) [0x00007FF66ADCD02A]
+	(No symbol) [0x00007FF66AD9BA76]
+	(No symbol) [0x00007FF66ADCD240]
+	(No symbol) [0x00007FF66ADEC977]
+	(No symbol) [0x00007FF66ADCCDD3]
+	(No symbol) [0x00007FF66AD9A33B]
+	(No symbol) [0x00007FF66AD9AED1]
+	GetHandleVerifier [0x00007FF66B228B1D+3217341]
+	GetHandleVerifier [0x00007FF66B275AE3+3532675]
+	GetHandleVerifier [0x00007FF66B26B0E0+3489152]
+	GetHandleVerifier [0x00007FF66AFCE776+750614]
+	(No symbol) [0x00007FF66AEA375F]
+	(No symbol) [0x00007FF66AE9EB14]
+	(No symbol) [0x00007FF66AE9ECA2]
+	(No symbol) [0x00007FF66AE8E16F]
+	BaseThreadInitThunk [0x00007FFBB15B7344+20]
+	RtlUserThreadStart [0x00007FFBB1E226B1+33]
+</status>
+</kw>
+<kw name="Select Window">
+<arg>title=nopCommerce demo store. Desktops</arg>
+<status status="NOT RUN" start="2024-07-11T14:08:04.520136" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>xpath://*[@id="main"]/div/div[3]/div/div[2]/div[2]/div[2]/div/div/div[1]/div/div[2]/div[3]/div[2]/button[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-07-11T14:08:04.520136" elapsed="0.000000"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<arg>${screenshot_dir}/desktop_product.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="NOT RUN" start="2024-07-11T14:08:04.520136" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-07-11T14:08:04.520136" elapsed="3.968597"/>
+</kw>
+<status status="FAIL" start="2024-07-11T14:05:58.353143" elapsed="130.135590">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF66AF1EEA2+31554]
+	(No symbol) [0x00007FF66AE97ED9]
+	(No symbol) [0x00007FF66AD58559]
+	(No symbol) [0x00007FF66ADA97C2]
+	(No symbol) [0x00007FF66AD9C151]
+	(No symbol) [0x00007FF66ADCD02A]
+	(No symbol) [0x00007FF66AD9BA76]
+	(No symbol) [0x00007FF66ADCD240]
+	(No symbol) [0x00007FF66ADEC977]
+	(No symbol) [0x00007FF66ADCCDD3]
+	(No symbol) [0x00007FF66AD9A33B]
+	(No symbol) [0x00007FF66AD9AED1]
+	GetHandleVerifier [0x00007FF66B228B1D+3217341]
+	GetHandleVerifier [0x00007FF66B275AE3+3532675]
+	GetHandleVerifier [0x00007FF66B26B0E0+3489152]
+	GetHandleVerifier [0x00007FF66AFCE776+750614]
+	(No symbol) [0x00007FF66AEA375F]
+	(No symbol) [0x00007FF66AE9EB14]
+	(No symbol) [0x00007FF66AE9ECA2]
+	(No symbol) [0x00007FF66AE8E16F]
+	BaseThreadInitThunk [0x00007FFBB15B7344+20]
+	RtlUserThreadStart [0x00007FFBB1E226B1+33]
+</status>
+</test>
+<status status="FAIL" start="2024-07-11T14:05:57.728103" elapsed="130.760630"/>
+</suite>
+<suite id="s1-s3" name="Desktop" source="C:\Users\ELCOT\PycharmProjects\pythonProject5\Tests\Desktop.robot">
+<test id="s1-s3-t1" name="DesktopTest" line="4">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-07-11T14:08:08.519977" level="INFO">Opening browser 'chrome' to base url 'https://demo.nopcommerce.com/'.</msg>
+<arg>https://demo.nopcommerce.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-07-11T14:08:08.519977" elapsed="38.311705"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-07-11T14:08:46.847308" level="INFO">Clicking link 'xpath:/html/body/div[6]/div[2]/ul[1]/li[1]/a'.</msg>
+<arg>xpath:/html/body/div[6]/div[2]/ul[1]/li[1]/a</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-11T14:08:46.847308" elapsed="4.686278"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-07-11T14:08:51.624788" level="INFO">Clicking link 'xpath:/html/body/div[6]/div[2]/ul[1]/li[1]/ul/li[1]/a'.</msg>
+<msg time="2024-07-11T14:08:51.823158" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-07-11T14:08:51.824166" level="FAIL">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF66AF1EEA2+31554]
+	(No symbol) [0x00007FF66AE97ED9]
+	(No symbol) [0x00007FF66AD58559]
+	(No symbol) [0x00007FF66ADA97C2]
+	(No symbol) [0x00007FF66AD9C151]
+	(No symbol) [0x00007FF66ADCD02A]
+	(No symbol) [0x00007FF66AD9BA76]
+	(No symbol) [0x00007FF66ADCD240]
+	(No symbol) [0x00007FF66ADEC977]
+	(No symbol) [0x00007FF66ADCCDD3]
+	(No symbol) [0x00007FF66AD9A33B]
+	(No symbol) [0x00007FF66AD9AED1]
+	GetHandleVerifier [0x00007FF66B228B1D+3217341]
+	GetHandleVerifier [0x00007FF66B275AE3+3532675]
+	GetHandleVerifier [0x00007FF66B26B0E0+3489152]
+	GetHandleVerifier [0x00007FF66AFCE776+750614]
+	(No symbol) [0x00007FF66AEA375F]
+	(No symbol) [0x00007FF66AE9EB14]
+	(No symbol) [0x00007FF66AE9ECA2]
+	(No symbol) [0x00007FF66AE8E16F]
+	BaseThreadInitThunk [0x00007FFBB15B7344+20]
+	RtlUserThreadStart [0x00007FFBB1E226B1+33]
+</msg>
+<arg>xpath:/html/body/div[6]/div[2]/ul[1]/li[1]/ul/li[1]/a</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="FAIL" start="2024-07-11T14:08:51.623782" elapsed="0.202379">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF66AF1EEA2+31554]
+	(No symbol) [0x00007FF66AE97ED9]
+	(No symbol) [0x00007FF66AD58559]
+	(No symbol) [0x00007FF66ADA97C2]
+	(No symbol) [0x00007FF66AD9C151]
+	(No symbol) [0x00007FF66ADCD02A]
+	(No symbol) [0x00007FF66AD9BA76]
+	(No symbol) [0x00007FF66ADCD240]
+	(No symbol) [0x00007FF66ADEC977]
+	(No symbol) [0x00007FF66ADCCDD3]
+	(No symbol) [0x00007FF66AD9A33B]
+	(No symbol) [0x00007FF66AD9AED1]
+	GetHandleVerifier [0x00007FF66B228B1D+3217341]
+	GetHandleVerifier [0x00007FF66B275AE3+3532675]
+	GetHandleVerifier [0x00007FF66B26B0E0+3489152]
+	GetHandleVerifier [0x00007FF66AFCE776+750614]
+	(No symbol) [0x00007FF66AEA375F]
+	(No symbol) [0x00007FF66AE9EB14]
+	(No symbol) [0x00007FF66AE9ECA2]
+	(No symbol) [0x00007FF66AE8E16F]
+	BaseThreadInitThunk [0x00007FFBB15B7344+20]
+	RtlUserThreadStart [0x00007FFBB1E226B1+33]
+</status>
+</kw>
+<status status="FAIL" start="2024-07-11T14:08:08.519977" elapsed="43.308032">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF66AF1EEA2+31554]
+	(No symbol) [0x00007FF66AE97ED9]
+	(No symbol) [0x00007FF66AD58559]
+	(No symbol) [0x00007FF66ADA97C2]
+	(No symbol) [0x00007FF66AD9C151]
+	(No symbol) [0x00007FF66ADCD02A]
+	(No symbol) [0x00007FF66AD9BA76]
+	(No symbol) [0x00007FF66ADCD240]
+	(No symbol) [0x00007FF66ADEC977]
+	(No symbol) [0x00007FF66ADCCDD3]
+	(No symbol) [0x00007FF66AD9A33B]
+	(No symbol) [0x00007FF66AD9AED1]
+	GetHandleVerifier [0x00007FF66B228B1D+3217341]
+	GetHandleVerifier [0x00007FF66B275AE3+3532675]
+	GetHandleVerifier [0x00007FF66B26B0E0+3489152]
+	GetHandleVerifier [0x00007FF66AFCE776+750614]
+	(No symbol) [0x00007FF66AEA375F]
+	(No symbol) [0x00007FF66AE9EB14]
+	(No symbol) [0x00007FF66AE9ECA2]
+	(No symbol) [0x00007FF66AE8E16F]
+	BaseThreadInitThunk [0x00007FFBB15B7344+20]
+	RtlUserThreadStart [0x00007FFBB1E226B1+33]
+</status>
+</test>
+<status status="FAIL" start="2024-07-11T14:08:08.488733" elapsed="43.341275"/>
+</suite>
+<suite id="s1-s4" name="Electron" source="C:\Users\ELCOT\PycharmProjects\pythonProject5\Tests\electron.robot">
+<test id="s1-s4-t1" name="ElectronTest" line="7">
+<kw name="Open Browser">
+<msg time="2024-07-11T14:08:51.842013" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<status status="FAIL" start="2024-07-11T14:08:51.842013" elapsed="0.000000">No keyword with name 'Open Browser' found.</status>
+</kw>
+<kw name="Mouse over">
+<arg>xpath:/html/body/div[6]/div[2]/ul[1]/li[2]/a</arg>
+<status status="NOT RUN" start="2024-07-11T14:08:51.843013" elapsed="0.000000"/>
+</kw>
+<kw name="click link">
+<arg>path:/html/body/div[6]/div[2]/ul[1]/li[2]/ul/li[1]/a</arg>
+<status status="NOT RUN" start="2024-07-11T14:08:51.844012" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-07-11T14:08:51.840012" elapsed="0.005221">No keyword with name 'Open Browser' found.</status>
+</test>
+<status status="FAIL" start="2024-07-11T14:08:51.831010" elapsed="0.015224"/>
+</suite>
+<suite id="s1-s5" name="Login" source="C:\Users\ELCOT\PycharmProjects\pythonProject5\Tests\Login.robot">
+<test id="s1-s5-t1" name="Test Registration Process" line="12">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-07-11T14:08:52.887159" level="INFO">Opening browser 'chrome' to base url 'https://demo.nopcommerce.com/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-07-11T14:08:52.886159" elapsed="61.569230"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-07-11T14:09:54.458391" level="INFO">Clicking link 'xpath:/html/body/div[6]/div[1]/div[1]/div[2]/div[1]/ul/li[2]/a'.</msg>
+<arg>xpath:/html/body/div[6]/div[1]/div[1]/div[2]/div[1]/ul/li[2]/a</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-11T14:09:54.456388" elapsed="13.891652"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-07-11T14:10:08.349039" level="INFO">Typing text 'dhanasri22@gmail.com' into text field 'id:Email'.</msg>
+<arg>id:Email</arg>
+<arg>dhanasri22@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-11T14:10:08.349039" elapsed="8.304572"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-07-11T14:10:16.656612" level="INFO">Typing text 'Srii@147' into text field 'id:Password'.</msg>
+<arg>id:Password</arg>
+<arg>Srii@147</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-11T14:10:16.655609" elapsed="0.475105"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-07-11T14:10:17.131716" level="INFO">Clicking element 'xpath://button[@class="button-1 login-button"]'.</msg>
+<arg>xpath://button[@class="button-1 login-button"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-11T14:10:17.131716" elapsed="1.050593"/>
+</kw>
+<kw name="*** Settings ***">
+<msg time="2024-07-11T14:10:18.192312" level="FAIL">No keyword with name '*** Settings ***' found.</msg>
+<status status="FAIL" start="2024-07-11T14:10:18.192312" elapsed="0.001002">No keyword with name '*** Settings ***' found.</status>
+</kw>
+<doc>Test the registration process on the demo website</doc>
+<status status="FAIL" start="2024-07-11T14:08:52.885157" elapsed="85.310154">No keyword with name '*** Settings ***' found.</status>
+</test>
+<test id="s1-s5-t2" name="Library" line="20">
+<kw name="SeleniumLibrary">
+<msg time="2024-07-11T14:10:18.205317" level="FAIL">No keyword with name 'SeleniumLibrary' found.</msg>
+<status status="FAIL" start="2024-07-11T14:10:18.205317" elapsed="0.001007">No keyword with name 'SeleniumLibrary' found.</status>
+</kw>
+<status status="FAIL" start="2024-07-11T14:10:18.198316" elapsed="0.020940">No keyword with name 'SeleniumLibrary' found.</status>
+</test>
+<test id="s1-s5-t3" name="Library" line="21">
+<kw name="OperatingSystem">
+<msg time="2024-07-11T14:10:18.229298" level="FAIL">No keyword with name 'OperatingSystem' found.</msg>
+<status status="FAIL" start="2024-07-11T14:10:18.229298" elapsed="0.000000">No keyword with name 'OperatingSystem' found.</status>
+</kw>
+<status status="FAIL" start="2024-07-11T14:10:18.220298" elapsed="0.010033">No keyword with name 'OperatingSystem' found.</status>
+</test>
+<test id="s1-s5-t4" name="Resource" line="22">
+<kw name="../resources/resources.robot">
+<msg time="2024-07-11T14:10:18.238300" level="FAIL">No keyword with name '../resources/resources.robot' found.</msg>
+<status status="FAIL" start="2024-07-11T14:10:18.238300" elapsed="0.002004">No keyword with name '../resources/resources.robot' found.</status>
+</kw>
+<status status="FAIL" start="2024-07-11T14:10:18.231302" elapsed="0.011003">No keyword with name '../resources/resources.robot' found.</status>
+</test>
+<test id="s1-s5-t5" name="Test Registration Process" line="30">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-07-11T14:10:18.245307" level="INFO">Opening browser 'chrome' to base url 'https://demo.nopcommerce.com/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-07-11T14:10:18.244307" elapsed="79.465762"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-07-11T14:11:37.710069" level="INFO">Clicking link 'xpath:/html/body/div[6]/div[1]/div[1]/div[2]/div[1]/ul/li[2]/a'.</msg>
+<arg>xpath:/html/body/div[6]/div[1]/div[1]/div[2]/div[1]/ul/li[2]/a</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-11T14:11:37.710069" elapsed="0.908327"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-07-11T14:11:38.618396" level="INFO">Typing text 'dhanasri22@gmail.com' into text field 'id:Email'.</msg>
+<arg>id:Email</arg>
+<arg>dhanasri22@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-11T14:11:38.618396" elapsed="0.261128"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-07-11T14:11:38.880525" level="INFO">Typing text 'Srii@147' into text field 'id:Password'.</msg>
+<arg>id:Password</arg>
+<arg>Srii@147</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-11T14:11:38.880525" elapsed="0.207543"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-07-11T14:11:39.088068" level="INFO">Clicking element 'xpath://button[@class="button-1 login-button"]'.</msg>
+<arg>xpath://button[@class="button-1 login-button"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-11T14:11:39.088068" elapsed="0.908999"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2024-07-11T14:11:40.190235" level="INFO">Current page contains text 'error'.</msg>
+<arg>${expected}</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2024-07-11T14:11:39.997067" elapsed="0.193168"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2024-07-11T14:11:41.865837" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="results/screenshots/login_page.png"&gt;&lt;img src="results/screenshots/login_page.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${screenshot_dir}/login_page.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2024-07-11T14:11:40.190235" elapsed="1.675602"/>
+</kw>
+<kw name="Suite Teardown">
+<msg time="2024-07-11T14:11:41.865837" level="FAIL">No keyword with name 'Suite Teardown' found.</msg>
+<arg>Zip Results</arg>
+<arg>${results_dir}</arg>
+<arg>${zip_file}</arg>
+<status status="FAIL" start="2024-07-11T14:11:41.865837" elapsed="0.000000">No keyword with name 'Suite Teardown' found.</status>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-07-11T14:11:41.865837" elapsed="19.201435"/>
+</kw>
+<doc>Test the registration process on the demo website</doc>
+<status status="FAIL" start="2024-07-11T14:10:18.243303" elapsed="102.897901">No keyword with name 'Suite Teardown' found.</status>
+</test>
+<status status="FAIL" start="2024-07-11T14:08:51.848234" elapsed="189.294993"/>
+</suite>
+<suite id="s1-s6" name="Mobile" source="C:\Users\ELCOT\PycharmProjects\pythonProject5\Tests\mobile.robot">
+<test id="s1-s6-t1" name="ElectronTest" line="7">
+<kw name="Open Browser">
+<msg time="2024-07-11T14:12:01.233459" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<status status="FAIL" start="2024-07-11T14:12:01.233459" elapsed="0.000000">No keyword with name 'Open Browser' found.</status>
+</kw>
+<kw name="Mouse over">
+<arg>xpath:/html/body/div[6]/div[2]/ul[1]/li[2]/a</arg>
+<status status="NOT RUN" start="2024-07-11T14:12:01.233459" elapsed="0.000000"/>
+</kw>
+<kw name="click link">
+<arg>xpath:/html/body/div[6]/div[2]/ul[1]/li[2]/ul/li[2]/a</arg>
+<status status="NOT RUN" start="2024-07-11T14:12:01.233459" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-07-11T14:12:01.217836" elapsed="0.015623">No keyword with name 'Open Browser' found.</status>
+</test>
+<status status="FAIL" start="2024-07-11T14:12:01.144206" elapsed="0.089253"/>
+</suite>
+<suite id="s1-s7" name="Register" source="C:\Users\ELCOT\PycharmProjects\pythonProject5\Tests\register.robot">
+<test id="s1-s7-t1" name="Test Registration Process" line="12">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-07-11T14:12:01.249087" level="INFO">Opening browser 'chrome' to base url 'https://demo.nopcommerce.com/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-07-11T14:12:01.249087" elapsed="50.543013"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-07-11T14:12:51.798873" level="INFO">Clicking link 'xpath:/html/body/div[6]/div[1]/div[1]/div[2]/div[1]/ul/li[1]/a'.</msg>
+<msg time="2024-07-11T14:12:52.036831" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-07-11T14:12:52.036831" level="FAIL">Link with locator 'xpath:/html/body/div[6]/div[1]/div[1]/div[2]/div[1]/ul/li[1]/a' not found.</msg>
+<arg>xpath:/html/body/div[6]/div[1]/div[1]/div[2]/div[1]/ul/li[1]/a</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="FAIL" start="2024-07-11T14:12:51.792100" elapsed="11.557009">Link with locator 'xpath:/html/body/div[6]/div[1]/div[1]/div[2]/div[1]/ul/li[1]/a' not found.</status>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${FName}</var>
+<arg>id:FirstName</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2024-07-11T14:13:03.349109" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${LName}</var>
+<arg>id:LastName</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2024-07-11T14:13:03.349109" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${Email_id}</var>
+<arg>id:Email</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2024-07-11T14:13:03.349109" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${Password}</var>
+<arg>id:Password</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2024-07-11T14:13:03.349109" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${ConfirmPsw}</var>
+<arg>id:ConfirmPassword</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2024-07-11T14:13:03.349109" elapsed="0.000000"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>${FName}</arg>
+<arg>Dhanasri</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-07-11T14:13:03.349109" elapsed="0.000000"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>${LName}</arg>
+<arg>Kumar</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-07-11T14:13:03.349109" elapsed="0.000000"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>${Email_id}</arg>
+<arg>dhanasri22@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-07-11T14:13:03.364609" elapsed="0.000000"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>${Password}</arg>
+<arg>Srii@147</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-07-11T14:13:03.364609" elapsed="0.000000"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>${ConfirmPsw}</arg>
+<arg>Srii@147</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-07-11T14:13:03.364609" elapsed="0.000000"/>
+</kw>
+<kw name="Select Radio Button" owner="SeleniumLibrary">
+<arg>Gender</arg>
+<arg>F</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<status status="NOT RUN" start="2024-07-11T14:13:03.364609" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>id:register-button</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-07-11T14:13:03.364609" elapsed="0.000000"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<arg>${screenshot_dir}/registration_page.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="NOT RUN" start="2024-07-11T14:13:03.364609" elapsed="0.000000"/>
+</kw>
+<kw name="Suite Teardown">
+<arg>Zip Results</arg>
+<arg>${results_dir}</arg>
+<arg>${zip_file}</arg>
+<status status="NOT RUN" start="2024-07-11T14:13:03.364609" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-07-11T14:13:03.364609" elapsed="14.900779"/>
+</kw>
+<doc>Test the registration process on the demo website</doc>
+<status status="FAIL" start="2024-07-11T14:12:01.249087" elapsed="77.016301">Link with locator 'xpath:/html/body/div[6]/div[1]/div[1]/div[2]/div[1]/ul/li[1]/a' not found.</status>
+</test>
+<status status="FAIL" start="2024-07-11T14:12:01.233459" elapsed="77.031929"/>
+</suite>
+<suite id="s1-s8" name="Scroll" source="C:\Users\ELCOT\PycharmProjects\pythonProject5\Tests\scroll.robot">
+<test id="s1-s8-t1" name="TableTest" line="4">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-07-11T14:13:18.374766" level="INFO">Opening browser 'chrome' to base url 'https://testautomationpractice.blogspot.com/'.</msg>
+<arg>https://testautomationpractice.blogspot.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-07-11T14:13:18.374766" elapsed="91.088583"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<msg time="2024-07-11T14:14:49.478975" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF66AF1EEA2+31554]
+	(No symbol) [0x00007FF66AE97ED9]
+	(No symbol) [0x00007FF66AD5872A]
+	(No symbol) [0x00007FF66AD2D995]
+	(No symbol) [0x00007FF66ADD44D7]
+	(No symbol) [0x00007FF66ADEC051]
+	(No symbol) [0x00007FF66ADCCDD3]
+	(No symbol) [0x00007FF66AD9A33B]
+	(No symbol) [0x00007FF66AD9AED1]
+	GetHandleVerifier [0x00007FF66B228B1D+3217341]
+	GetHandleVerifier [0x00007FF66B275AE3+3532675]
+	GetHandleVerifier [0x00007FF66B26B0E0+3489152]
+	GetHandleVerifier [0x00007FF66AFCE776+750614]
+	(No symbol) [0x00007FF66AEA375F]
+	(No symbol) [0x00007FF66AE9EB14]
+	(No symbol) [0x00007FF66AE9ECA2]
+	(No symbol) [0x00007FF66AE8E16F]
+	BaseThreadInitThunk [0x00007FFBB15B7344+20]
+	RtlUserThreadStart [0x00007FFBB1E226B1+33]
+</msg>
+<msg time="2024-07-11T14:14:49.478975" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF66AF1EEA2+31554]
+	(No symbol) [0x00007FF66AE97ED9]
+	(No symbol) [0x00007FF66AD5872A]
+	(No symbol) [0x00007FF66AD2D995]
+	(No symbol) [0x00007FF66ADD44D7]
+	(No symbol) [0x00007FF66ADEC051]
+	(No symbol) [0x00007FF66ADCCDD3]
+	(No symbol) [0x00007FF66AD9A33B]
+	(No symbol) [0x00007FF66AD9AED1]
+	GetHandleVerifier [0x00007FF66B228B1D+3217341]
+	GetHandleVerifier [0x00007FF66B275AE3+3532675]
+	GetHandleVerifier [0x00007FF66B26B0E0+3489152]
+	GetHandleVerifier [0x00007FF66AFCE776+750614]
+	(No symbol) [0x00007FF66AEA375F]
+	(No symbol) [0x00007FF66AE9EB14]
+	(No symbol) [0x00007FF66AE9ECA2]
+	(No symbol) [0x00007FF66AE8E16F]
+	BaseThreadInitThunk [0x00007FFBB15B7344+20]
+	RtlUserThreadStart [0x00007FFBB1E226B1+33]
+</msg>
+<doc>Maximizes current browser window.</doc>
+<status status="FAIL" start="2024-07-11T14:14:49.478975" elapsed="4.858043">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF66AF1EEA2+31554]
+	(No symbol) [0x00007FF66AE97ED9]
+	(No symbol) [0x00007FF66AD5872A]
+	(No symbol) [0x00007FF66AD2D995]
+	(No symbol) [0x00007FF66ADD44D7]
+	(No symbol) [0x00007FF66ADEC051]
+	(No symbol) [0x00007FF66ADCCDD3]
+	(No symbol) [0x00007FF66AD9A33B]
+	(No symbol) [0x00007FF66AD9AED1]
+	GetHandleVerifier [0x00007FF66B228B1D+3217341]
+	GetHandleVerifier [0x00007FF66B275AE3+3532675]
+	GetHandleVerifier [0x00007FF66B26B0E0+3489152]
+	GetHandleVerifier [0x00007FF66AFCE776+750614]
+	(No symbol) [0x00007FF66AEA375F]
+	(No symbol) [0x00007FF66AE9EB14]
+	(No symbol) [0x00007FF66AE9ECA2]
+	(No symbol) [0x00007FF66AE8E16F]
+	BaseThreadInitThunk [0x00007FFBB15B7344+20]
+	RtlUserThreadStart [0x00007FFBB1E226B1+33]
+</status>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<var>${data}</var>
+<arg>xpath://table[@name="BookTable"]/tbody/tr[3]/td[3]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-07-11T14:14:54.337018" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${data}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2024-07-11T14:14:54.337018" elapsed="0.000000"/>
+</kw>
+<kw name="Get Element Count" owner="SeleniumLibrary">
+<var>${rows}</var>
+<arg>xpath://table[@name="BookName"]/tbody/tr</arg>
+<doc>Returns the number of elements matching ``locator``.</doc>
+<status status="NOT RUN" start="2024-07-11T14:14:54.337018" elapsed="0.000000"/>
+</kw>
+<kw name="Get Element Count" owner="SeleniumLibrary">
+<var>${colomns}</var>
+<arg>xpath://table[@name="BookName"]/tbody/tr/th</arg>
+<doc>Returns the number of elements matching ``locator``.</doc>
+<status status="NOT RUN" start="2024-07-11T14:14:54.337018" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${rows}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2024-07-11T14:14:54.337018" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${colomns}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2024-07-11T14:14:54.337018" elapsed="0.000000"/>
+</kw>
+<kw name="Table Column Should Contain" owner="SeleniumLibrary">
+<arg>xpath://table[@name="BookName"]</arg>
+<arg>2</arg>
+<arg>Author</arg>
+<doc>Verifies table column contains text ``expected``.</doc>
+<status status="NOT RUN" start="2024-07-11T14:14:54.337018" elapsed="0.000000"/>
+</kw>
+<kw name="Table Cell Should Contain" owner="SeleniumLibrary">
+<arg>xpath://table[@name="BookName"]</arg>
+<arg>3</arg>
+<arg>3</arg>
+<arg>Java</arg>
+<doc>Verifies table cell contains text ``expected``.</doc>
+<status status="NOT RUN" start="2024-07-11T14:14:54.337018" elapsed="0.000000"/>
+</kw>
+<kw name="Table Row Should Contain" owner="SeleniumLibrary">
+<arg>xpath://table[@name="BookName"]</arg>
+<arg>Learn JS</arg>
+<arg>3</arg>
+<arg>Java</arg>
+<doc>Verifies that table row contains text ``expected``.</doc>
+<status status="NOT RUN" start="2024-07-11T14:14:54.337018" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-07-11T14:13:18.374766" elapsed="95.962252">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF66AF1EEA2+31554]
+	(No symbol) [0x00007FF66AE97ED9]
+	(No symbol) [0x00007FF66AD5872A]
+	(No symbol) [0x00007FF66AD2D995]
+	(No symbol) [0x00007FF66ADD44D7]
+	(No symbol) [0x00007FF66ADEC051]
+	(No symbol) [0x00007FF66ADCCDD3]
+	(No symbol) [0x00007FF66AD9A33B]
+	(No symbol) [0x00007FF66AD9AED1]
+	GetHandleVerifier [0x00007FF66B228B1D+3217341]
+	GetHandleVerifier [0x00007FF66B275AE3+3532675]
+	GetHandleVerifier [0x00007FF66B26B0E0+3489152]
+	GetHandleVerifier [0x00007FF66AFCE776+750614]
+	(No symbol) [0x00007FF66AEA375F]
+	(No symbol) [0x00007FF66AE9EB14]
+	(No symbol) [0x00007FF66AE9ECA2]
+	(No symbol) [0x00007FF66AE8E16F]
+	BaseThreadInitThunk [0x00007FFBB15B7344+20]
+	RtlUserThreadStart [0x00007FFBB1E226B1+33]
+</status>
+</test>
+<status status="FAIL" start="2024-07-11T14:13:18.265388" elapsed="96.087258"/>
+</suite>
+<status status="FAIL" start="2024-07-11T14:05:57.603219" elapsed="536.749427"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="12" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="12" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Addtocart">Tests.Addtocart</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s2" name="Computer">Tests.Computer</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s3" name="Desktop">Tests.Desktop</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s4" name="Electron">Tests.Electron</stat>
+<stat pass="0" fail="5" skip="0" id="s1-s5" name="Login">Tests.Login</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s6" name="Mobile">Tests.Mobile</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s7" name="Register">Tests.Register</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s8" name="Scroll">Tests.Scroll</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-07-11T14:05:57.728103" level="ERROR">Error in file 'C:\Users\ELCOT\PycharmProjects\pythonProject5\Tests\Addtocart.robot' on line 2: Importing library 'SeleniumLibary' failed: ModuleNotFoundError: No module named 'SeleniumLibary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\ELCOT\AppData\Local\Programs\Python\Python312\Scripts\robot.exe
+  C:\Users\ELCOT\AppData\Local\Programs\Python\Python312\python312.zip
+  C:\Users\ELCOT\AppData\Local\Programs\Python\Python312\DLLs
+  C:\Users\ELCOT\AppData\Local\Programs\Python\Python312\Lib
+  C:\Users\ELCOT\AppData\Local\Programs\Python\Python312
+  C:\Users\ELCOT\AppData\Local\Programs\Python\Python312\Lib\site-packages</msg>
+<msg time="2024-07-11T14:08:51.839011" level="ERROR">Error in file 'C:\Users\ELCOT\PycharmProjects\pythonProject5\Tests\electron.robot' on line 2: Importing library 'Seleniumlibrary' failed: ModuleNotFoundError: No module named 'Seleniumlibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\ELCOT\AppData\Local\Programs\Python\Python312\Scripts\robot.exe
+  C:\Users\ELCOT\AppData\Local\Programs\Python\Python312\python312.zip
+  C:\Users\ELCOT\AppData\Local\Programs\Python\Python312\DLLs
+  C:\Users\ELCOT\AppData\Local\Programs\Python\Python312\Lib
+  C:\Users\ELCOT\AppData\Local\Programs\Python\Python312
+  C:\Users\ELCOT\AppData\Local\Programs\Python\Python312\Lib\site-packages</msg>
+<msg time="2024-07-11T14:10:18.220298" level="WARN">Multiple tests with name 'Library' executed in suite 'Tests.Login'.</msg>
+<msg time="2024-07-11T14:10:18.243303" level="WARN">Multiple tests with name 'Test Registration Process' executed in suite 'Tests.Login'.</msg>
+<msg time="2024-07-11T14:12:01.217836" level="ERROR">Error in file 'C:\Users\ELCOT\PycharmProjects\pythonProject5\Tests\mobile.robot' on line 2: Importing library 'Seleniumlibrary' failed: ModuleNotFoundError: No module named 'Seleniumlibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\ELCOT\AppData\Local\Programs\Python\Python312\Scripts\robot.exe
+  C:\Users\ELCOT\AppData\Local\Programs\Python\Python312\python312.zip
+  C:\Users\ELCOT\AppData\Local\Programs\Python\Python312\DLLs
+  C:\Users\ELCOT\AppData\Local\Programs\Python\Python312\Lib
+  C:\Users\ELCOT\AppData\Local\Programs\Python\Python312
+  C:\Users\ELCOT\AppData\Local\Programs\Python\Python312\Lib\site-packages</msg>
+<msg time="2024-07-11T14:14:49.478975" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF66AF1EEA2+31554]
+	(No symbol) [0x00007FF66AE97ED9]
+	(No symbol) [0x00007FF66AD5872A]
+	(No symbol) [0x00007FF66AD2D995]
+	(No symbol) [0x00007FF66ADD44D7]
+	(No symbol) [0x00007FF66ADEC051]
+	(No symbol) [0x00007FF66ADCCDD3]
+	(No symbol) [0x00007FF66AD9A33B]
+	(No symbol) [0x00007FF66AD9AED1]
+	GetHandleVerifier [0x00007FF66B228B1D+3217341]
+	GetHandleVerifier [0x00007FF66B275AE3+3532675]
+	GetHandleVerifier [0x00007FF66B26B0E0+3489152]
+	GetHandleVerifier [0x00007FF66AFCE776+750614]
+	(No symbol) [0x00007FF66AEA375F]
+	(No symbol) [0x00007FF66AE9EB14]
+	(No symbol) [0x00007FF66AE9ECA2]
+	(No symbol) [0x00007FF66AE8E16F]
+	BaseThreadInitThunk [0x00007FFBB15B7344+20]
+	RtlUserThreadStart [0x00007FFBB1E226B1+33]
+</msg>
+</errors>
+</robot>
